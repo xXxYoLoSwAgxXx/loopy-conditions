@@ -6,7 +6,18 @@
  * @param  { Number } b
  * @return { Number }
  */
-
+function greaterNumber(a,b){
+  if (a>b){
+    return a;
+  }
+  if (b>a){
+    return b;
+  }
+  else {
+    console.log("equal");
+  }
+}
+greaterNumber(420, 69);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -17,7 +28,10 @@
  * @param  { Number } n
  * @return { String }
  */
-
+function stringOfNumbers(a){
+  var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  
+}
 
 /**
  * Create a function called 'sumOfArray'.
